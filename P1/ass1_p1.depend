@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1650315881 source:c:\users\ziadw\onedrive\desktop\ass1_p1\bigint.cpp
+	"BigInt.h"
+	<iostream>
+
+1650316136 c:\users\ziadw\onedrive\desktop\ass1_p1\bigint.h
+	<iostream>
+	<string>
+
+1650315982 source:c:\users\ziadw\onedrive\desktop\ass1_p1\main.cpp
+	<iostream>
+	"BigInt.h"
+
