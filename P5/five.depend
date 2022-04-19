@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1650404882 source:c:\users\ziadw\onedrive\desktop\five\main.cpp
+	<iostream>
+	"StudentName.h"
+
+1650405103 source:c:\users\ziadw\onedrive\desktop\five\studentname.cpp
+	"StudentName.h"
+	<iostream>
+
+1650401195 c:\users\ziadw\onedrive\desktop\five\studentname.h
+	<iostream>
+
