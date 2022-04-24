@@ -16,6 +16,7 @@ public:
     BigInt(const int &_num);
     BigInt operator-(BigInt &b);
     BigInt operator+(BigInt &b);
+    bool operator==(BigInt const &b);
     friend bool isBiger(string a, string b);
     friend bool isEqule(string a, string b);
     int size();

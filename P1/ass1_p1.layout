@@ -2,22 +2,30 @@
 <CodeBlocks_layout_file>
 	<FileVersion major="1" minor="0" />
 	<ActiveTarget name="Debug" />
+	<File name="main.cpp" open="1" top="1" tabpos="2" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1288" topLine="11" />
+		</Cursor>
+	</File>
 	<File name="BigInt.h" open="1" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="474" topLine="0" />
+			<Cursor1 position="145" topLine="0" />
 		</Cursor>
 	</File>
-	<File name="BigInt.cpp" open="1" top="1" tabpos="1" split="0" active="1" splitpos="0" zoom_1="1" zoom_2="0">
+	<File name="BigInt.cpp" open="1" top="0" tabpos="1" split="0" active="1" splitpos="0" zoom_1="1" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="7076" topLine="265" />
+			<Cursor1 position="7115" topLine="59" />
 		</Cursor>
+		<Folding>
+			<Collapse line="28" />
+			<Collapse line="33" />
+			<Collapse line="78" />
+			<Collapse line="177" />
+			<Collapse line="182" />
+			<Collapse line="187" />
+		</Folding>
 	</File>
-	<File name="main.cpp" open="1" top="0" tabpos="2" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="130" topLine="10" />
-		</Cursor>
-	</File>
-	<Target name="Debug" top="BigInt.cpp">
+	<Target name="Debug" top="main.cpp">
 		<File name="BigInt.cpp" />
 		<File name="main.cpp" />
 		<File name="BigInt.h" />

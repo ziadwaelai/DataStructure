@@ -2,8 +2,6 @@
 #include <iostream>
 using namespace std;
 
-
-
 void reverseStr(string &str)
 {
     int n = str.length();
@@ -25,11 +23,11 @@ void removeleftzeros(string &a)
     }
 }
 
-BigInt:: BigInt(string _num)
+BigInt::BigInt(string _num)
 {
     num = _num;
 };
-BigInt::BigInt() {};
+BigInt::BigInt(){};
 BigInt::BigInt(const int &_num)
 {
     num = to_string(_num);
@@ -75,7 +73,7 @@ bool isEqule(string a, string b)
     return true;
 }
 
-BigInt BigInt::  operator+(BigInt &b)
+BigInt BigInt::operator+(BigInt &b)
 {
     if (num[0] != '-' && b.num[0] != '-')
     {
@@ -174,7 +172,7 @@ BigInt BigInt::  operator+(BigInt &b)
         return r;
     }
 }
-int BigInt:: size()
+int BigInt::size()
 {
     return num.length();
 }
@@ -184,7 +182,7 @@ ostream &operator<<(ostream &output, BigInt a)
     cout << a.num;
     return output;
 }
-BigInt BigInt:: operator-(BigInt &b)
+BigInt BigInt::operator-(BigInt &b)
 {
     if (num[0] != '-' && b.num[0] != '-')
     {
@@ -291,4 +289,14 @@ BigInt BigInt:: operator-(BigInt &b)
         return n2 - n1;
     }
 }
-
+bool BigInt::operator==(BigInt const &b)
+{
+    if (isEqule(num, b.num))
+    {
+        return true;
+    }
+    else
+    {
+        return false;
+    }
+}
