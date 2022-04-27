@@ -13,8 +13,6 @@ BigInt num1("123456789012345678901234567890");
 BigInt num2("113456789011345678901134567890");
 BigInt num3 = num2 + num1;
 cout << "num1 = " << num1 << endl;
-CS214 – CAIRO UNIVERSITY - FCI – DATA STRUCTURES - 2022 / ASSIGNMENT 1
-2 | P a g e
 cout << "num2 = " << num2 << endl;
 //236913578023691357802369135780
 cout << "num2 + num1 = " << num3 << endl;
